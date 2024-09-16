@@ -1,6 +1,6 @@
 from rest_framework import serializers
 from netbox.api.serializers import NetBoxModelSerializer, NestedTagSerializer
-from dcim.api.serializers import NestedDeviceRoleSerializer
+from dcim.api.nested_serializers import NestedDeviceRoleSerializer
 
 from .nested_serializers import *
 from ..models import ApiServer, Zone
